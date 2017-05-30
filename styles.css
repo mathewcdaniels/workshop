@@ -1,0 +1,63 @@
+body
+{
+    background: url(https://gregsteely.files.wordpress.com/2014/01/library.jpg);
+    margin-top:     10%;
+    text-align: center;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+    height: auto;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main table
+{
+    /* Center tables */
+    width: 60%;
+    margin-left: 20%;
+    border-bottom: #ddd;
+    margin-bottom: 30px;
+}
+
+main th
+{
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+main tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+
+main td
+{
+    /* center-align tables' cells */
+    text-align: center;
+    padding: 5px;
+}
+
+.row-centered
+{
+    text-align: center;
+}
+
+.col-centered
+{
+    float: none;
+    text-align: left;
+    margin: 0 auto;
+}
